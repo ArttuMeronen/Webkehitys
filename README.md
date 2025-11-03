@@ -1,2 +1,2 @@
-# Web-kehitt-minen-Ty-kansio
+# Webkehitys kansio
 tehtävät Web-kehittämisen kurssilta
