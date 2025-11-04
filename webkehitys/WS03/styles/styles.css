@@ -79,6 +79,12 @@ table {
         display: flex;
         justify-content: flex-end;
         animation: move 4s infinite alternate;
+        cursor: pointer;
+        transition: background-color 0.5s ease;
+
+      }
+      .animation-box:hover {
+        background-color: purple;
       }
       
       @keyframes move {
@@ -89,3 +95,32 @@ table {
           left: 1300px;
         }
       }
+
+.pseudo-list li:nth-child(odd) {
+    background-color: pink;
+  }
+
+  .pseudo-list li:nth-child(even) {
+    background-color: lightgreen;
+  }
+.pseudo-list {
+  float: right;
+  clear: right;
+  font-size: 25px;
+  margin-right: 280px;
+}
+
+h2:nth-of-type(2) {
+    float: right;
+    font-size: 30px;
+    margin-right: 280px;
+}
+
+.filter-image {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+
+  .filter-image:hover {
+    filter: grayscale(0%);
+  }
