@@ -1,112 +1,118 @@
 <!DOCTYPE html>
-    <html>
-    <head>
-        <title>My First HTML Page</title>
-        <style>
-            h2 {
-                color:purple;
-            }
-        </style>
+<html>
+  <head>
+    <title>My First HTML Page</title>
+    <style>
+      h2 {
+        color: purple;
+      }
+    </style>
 
+    <link rel="stylesheet" href="styles/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header>
+      <h1 style="color: purple">Arttu Meronen</h1>
+      <p>Tämmöi chilli jäbä Lahest</p>
+      <div class="animation-box"></div>
+      <img
+        src="images/omakuva.jpg"
+        style="height: 300px; width: 240px"
+        alt="komee kuva"
+        class="filter-image"
+      />
 
-        <link rel="stylesheet" href="styles/styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <header>
-        <h1 style="color: purple;" >Arttu Meronen</h1>
-        <p>Tämmöi chilli jäbä Lahest</p>
-    <div class="animation-box"></div>
-        <img src="images/omakuva.jpg" style="height: 300px; width: 240px" alt="komee kuva" class ="filter-image">
-
-    <h2>My Website</h2>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-        </header>
-
-        <main>
-        <div class="container">
-            <blockquote class ="quote">  "Jos ei jaksa ni koittakaa vaan jaksaa" <br><br> -Niilo22 </blockquote>
-        </div>
-
-        <h2>Harrastukset</h2>
+      <h2>My Website</h2>
+      <nav>
         <ul>
-            <li>Pelaaminen</li>
-            <li>Pizzan syönti</li>
-            <li>Legojen rakentelu</li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-        <h2>lempi herkut</h2>
-        <ul class="pseudo-list">
-            <li>Pizza</li>
-            <li>letut hillolla</li>
-            <li>capuccino</li>
-            <li>jacky-vanukas</li>
-        </ul>
-        <h3>Lempisivu</h3>
-        <a href ="https://www.habbo.fi/">Habbo hotelli</a>
+      </nav>
+    </header>
 
-        <h4>Taulukko pelitunneista</h4>
-        <table>
-            <tr>
-                <th>Peli</th>
-                <th>Tuntimäärä</th>
-            </tr>
-            <tr>
-                <td>CS:GO/CS2</td>
-                <td>4550h</td>
-            </tr>
-            <tr>
-                <td>Elden Ring</td>
-                <td>40h</td>
-            </tr>
-            <tr>
-                <td>Stray</td>
-                <td>4.5h</td>
-            </tr>
-            </table>
-         &nbsp;
+    <main>
+      <div class="container">
+        <blockquote class="quote">
+          "Jos ei jaksa ni koittakaa vaan jaksaa" <br /><br />
+          -Niilo22
+        </blockquote>
+      </div>
 
-         <div class="flex-container">
-            <div class="box">Box 1</div>
-            <div class="box">Box 2</div>
-            <div class="box">Box 3</div>
-        </div>
+      <h2>Harrastukset</h2>
+      <ul>
+        <li>Pelaaminen</li>
+        <li>Pizzan syönti</li>
+        <li>Legojen rakentelu</li>
+      </ul>
+      <h2>lempi herkut</h2>
+      <ul class="pseudo-list">
+        <li>Pizza</li>
+        <li>letut hillolla</li>
+        <li>capuccino</li>
+        <li>jacky-vanukas</li>
+      </ul>
+      <h3>Lempisivu</h3>
+      <a href="https://www.habbo.fi/">Habbo hotelli</a>
 
-         <button class="transition-button">Hover me</button>
+      <h4>Taulukko pelitunneista</h4>
+      <table>
+        <tr>
+          <th>Peli</th>
+          <th>Tuntimäärä</th>
+        </tr>
+        <tr>
+          <td>CS:GO/CS2</td>
+          <td>4550h</td>
+        </tr>
+        <tr>
+          <td>Elden Ring</td>
+          <td>40h</td>
+        </tr>
+        <tr>
+          <td>Stray</td>
+          <td>4.5h</td>
+        </tr>
+      </table>
+      &nbsp;
 
-        <div class="grid-container">
-            <div class="grid-item">1</div>
-            <div class="grid-item">2</div>
-            <div class="grid-item">3</div>
-            <div class="grid-item">4</div>
-            <div class="grid-item">5</div>
-            <div class="grid-item">6</div>
-        </div>
-        &nbsp;
-        <div class="responsive-box">Resize the window to see the effect</div>
+      <div class="flex-container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+      </div>
 
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name"><br><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email"><br><br>
-            <input type="submit" value="Submit">
-        </form>
+      <button class="transition-button">Hover me</button>
 
-        <section id="about">
-            <h2>About Me</h2>
-            <p>This is a paragraph about me.</p>
-        </section>
+      <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+      </div>
+      &nbsp;
+      <div class="responsive-box">Resize the window to see the effect</div>
 
-        </main>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" /><br /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" /><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
 
-        <footer>    
-            <p>Copyright 2025</p>
-        </footer>
-    </body>
-    </html>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>This is a paragraph about me.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright 2025</p>
+    </footer>
+  </body>
+</html>
